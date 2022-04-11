@@ -1,5 +1,5 @@
 
-public class TestMaven123 {
+public class AVLTree {
 
     public class Node {
         int key;
@@ -138,4 +138,3 @@ public class TestMaven123 {
         return (n == null) ? 0 : height(n.right) - height(n.left);
     }
 }
-
